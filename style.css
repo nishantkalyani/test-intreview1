@@ -1,0 +1,147 @@
+.body{
+    margin: 0;
+    background-color: rgb(187, 236, 169) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(125, 194, 194);
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    float: left;
+    font-size: 22px;
+    padding: 10px 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+nav{
+    float: right;
+}
+
+ul{
+ margin: 0%;
+ padding: 0%;
+ list-style: none;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li{
+    display:inline-table;
+    margin-left: 65px;
+    padding-top: 23px;
+    border: 2px;
+}
+
+a{
+    border:4px solid black;
+    padding: 5px;
+}
+
+
+@media only  and (min-width:300px) and (max-width:100px){
+    .body{
+        margin: 0;
+        background-color: rgb(187, 236, 169) ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+    
+        
+
+}
+
+@media only and  screen (min-width:300px) and (max-width:100px) {
+       .container1{
+
+        display: flex;
+        border: 3px solid black;
+    flex-direction: row;
+    padding: 0%;
+    grid-template-rows:auto;
+    grid-template-columns: auto;
+     
+}
+}
+
+.container1{
+    display: flex;
+    border: 3px solid black;
+    flex-direction: row;
+    padding: 0%;
+    grid-template-rows:auto;
+    grid-template-columns: auto;
+}
+
+@media screen  (min-width:300px) and (max-width:1000px){
+
+    
+
+.pic1{
+    height:auto ;
+    width: auto;
+}
+
+.pic2{
+    height:auto ;
+    width: auto;
+}
+
+.pic3{
+    height: auto;
+    width: auto;
+}
+
+}
+
+
+.box1{
+    width: 33%;
+    border: 3px solid black;
+    text-align: center;
+    background-color: beige;
+}
+
+.box2{
+        width: 33%;
+        border: 3px solid black;
+        text-align: center;
+        background-color: beige;  
+}
+
+.box3{
+    width: 33%;
+    border: 3px solid black;
+    text-align: center;
+    background-color: beige;
+}
+
+
+
+
+
